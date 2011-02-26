@@ -5,11 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "paperclipftp"
-    gem.summary = %Q{Ftp storage support for paperclip file attachment}
-    gem.description = %Q{Ftp storage support for paperclip file attachment}
-    gem.email = "damian.caruso@gmail.com"
-    gem.homepage = "http://github.com/cdamian/paperclipftp"
-    gem.authors = ["Damian Caruso"]
+    gem.summary = %Q{Ftp storage support for paperclip file attachment. With Passive FTP}
+    gem.description = %Q{Ftp storage support for paperclip file attachment. With Passive FTP}
+    gem.email = "rohit0981989@gmail.com"
+    gem.homepage = "http://github.com/rohit09889/paperclipftp"
+    gem.authors = ["Rohit Sharma"]
     gem.files = FileList['lib/**/*.rb', '[A-Z]*', 'test/**/*'].to_a
     gem.add_dependency "paperclip", ">= 2.3.0"
     gem.add_development_dependency "yard", ">= 0"
