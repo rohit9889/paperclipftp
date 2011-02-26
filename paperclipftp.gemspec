@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{paperclipftp}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Damian Caruso"]
-  s.date = %q{2010-03-08}
-  s.description = %q{Ftp storage support for paperclip file attachment}
-  s.email = %q{damian.caruso@gmail.com}
+  s.authors = ["Rohit Sharma"]
+  s.date = %q{2011-02-26}
+  s.description = %q{Ftp storage support for paperclip file attachment, alongwith Passive FTP manipulation}
+  s.email = %q{rohit0981989@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
@@ -25,11 +25,11 @@ Gem::Specification.new do |s|
      "test/paperclipftp_test.rb",
      "test/test_helper.rb"
   ]
-  s.homepage = %q{http://github.com/cdamian/paperclipftp}
+  s.homepage = %q{http://github.com/rohit09889/paperclipftp}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.6}
-  s.summary = %q{Ftp storage support for paperclip file attachment}
+  s.rubygems_version = %q{1.3.7}
+  s.summary = %q{Ftp storage support for paperclip file attachment. Alongwith support for Passive FTP}
   s.test_files = [
     "test/paperclipftp_test.rb",
      "test/test_helper.rb"
