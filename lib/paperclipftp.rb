@@ -11,6 +11,7 @@ module Paperclip
       def ftp
       	if @ftp.nil? || @ftp.closed?
       	  @ftp = Net::FTP.new(@ftp_credentials[:host], @ftp_credentials[:username], @ftp_credentials[:password])
+          @ftp.passive = true
   	    end
   	    @ftp
       end
