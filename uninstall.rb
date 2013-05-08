@@ -1,1 +1,1 @@
-# Uninstall hook code here
+# Terst code# Uninstall hook code here
